@@ -1,0 +1,122 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #D9EAD8;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #96B397;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #2a9d8f;
+    background-color:  #e0e0e0;
+    
+    cursor: pointer;
+}
+
+/* Section styling */
+.product-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Product grid styling */
+.product-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.product-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.product-card .price {
+    color: #2a9d8f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+
+
+footer{
+    background-color: #0D4312;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    display: flex;
+
+}
+
+.product-card img {
+    width: 100%;         
+    height: 200px;        
+    object-fit: cover;   
+    border-radius: 10px;
+
+}
+nav {
+    display: flex;
+    justify-content: center;  
+    gap: 20px;
+    padding: 10px 0; }
+
+    html {
+        scroll-behavior:smooth;
+    }
+   
+
